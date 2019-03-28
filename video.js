@@ -57,7 +57,7 @@ function main()
   video0.height= 100;
 
   ver = document.getElementById('play')
-
+  video0.src = "https://thumbs.dreamstime.com/videothumb_large7947/79475355.mp4"
   video1.onclick = () => {
     video0.src = video1.src
     }
